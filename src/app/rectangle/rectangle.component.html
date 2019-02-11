@@ -1,0 +1,7 @@
+<p>
+  rectangle works!
+</p>
+<input (change)='onChange()' [(ngModel)]='sideA' type="number">
+<input (change)='onChange()' [(ngModel)]='sideB' type="number">
+<p>Perimeter: {{ rectangle.getPerimeter() }}</p>
+<p>Area: {{ rectangle.getArea() }}</p>

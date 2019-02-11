@@ -1,0 +1,7 @@
+<p>
+  triangle works!
+</p>
+<input (change)='onChange()' [(ngModel)]='sideA' type="number">
+<input (change)='onChange()' [(ngModel)]='sideB' type="number">
+<p>Perimeter: {{ triangle.getPerimeter() }}</p>
+<p>Area: {{ triangle.getArea() }}</p>
