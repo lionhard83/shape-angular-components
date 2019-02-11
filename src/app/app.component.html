@@ -2,11 +2,13 @@
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
-  </h1>
-  <app-square></app-square>
-  <app-rectangle></app-rectangle>
-  <app-triangle></app-triangle>
-  
+  </h1>  
 </div>
+<a routerLink='/'>Home</a> <br>
+<a routerLink='/triangle'>Triangle</a> <br>
+<a routerLink='/square'>Square</a> <br>
+<a routerLink='/rectangle'>Rectangle</a> <br>
+<button (click)='goToRectangle()'>Rectangle by Function</button> <br>
+
 
 <router-outlet></router-outlet>

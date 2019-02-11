@@ -7,6 +7,8 @@ import { ShapeComponent } from './shape/shape.component';
 import { TriangleComponent } from './triangle/triangle.component';
 import { SquareComponent } from './square/square.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
+import { HttpClientModule } from  '@angular/common/http';
+import { MatchComponent } from './match/match.component';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { RectangleComponent } from './rectangle/rectangle.component';
     ShapeComponent,
     TriangleComponent,
     SquareComponent,
-    RectangleComponent
+    RectangleComponent,
+    MatchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
