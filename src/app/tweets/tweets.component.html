@@ -1,0 +1,7 @@
+<div *ngFor='let tweet of tweets | reverse' >
+  <div *ngIf='tweet.author'>
+    <h3>{{ tweet.author }} </h3>
+    <p> {{ tweet.message }}</p>
+    <a routerLink='/tweets/{{tweet.id}}' href=''>Go to {{ tweet.id }}</a>
+  </div>
+</div>

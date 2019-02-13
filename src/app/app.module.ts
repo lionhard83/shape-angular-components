@@ -14,6 +14,10 @@ import { TeamsResultsComponent } from './teams-results/teams-results.component';
 import { GroupResultsComponent } from './group-results/group-results.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { TweetsComponent } from './tweets/tweets.component';
+import { TweetDetailComponent } from './tweet-detail/tweet-detail.component';
+import { CreateTweetComponent } from './create-tweet/create-tweet.component';
+import { ReversePipe } from './reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { FooterComponent } from './footer/footer.component';
     TeamsResultsComponent,
     GroupResultsComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    TweetsComponent,
+    TweetDetailComponent,
+    CreateTweetComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule,

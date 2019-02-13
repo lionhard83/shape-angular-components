@@ -8,6 +8,9 @@ import { MatchComponent } from './match/match.component';
 import { TeamsResultsComponent } from './teams-results/teams-results.component';
 import { TeamsComponent } from './teams/teams.component';
 import { GroupResultsComponent } from './group-results/group-results.component';
+import { TweetsComponent } from './tweets/tweets.component';
+import { TweetDetailComponent } from './tweet-detail/tweet-detail.component';
+import { CreateTweetComponent } from './create-tweet/create-tweet.component';
 
 const routes: Routes = [
   { path:'triangle', component: TriangleComponent},
@@ -17,7 +20,9 @@ const routes: Routes = [
   { path:'teams', component: TeamsComponent},
   { path:'teams/results', component: TeamsResultsComponent},
   { path:'teams/group_results', component: GroupResultsComponent},
-  { path:'', component: MatchComponent},
+  { path: 'tweets', component: TweetsComponent},
+  { path: 'tweets/create', component: CreateTweetComponent},
+  { path: 'tweets/:id', component: TweetDetailComponent},
 ];
 
 @NgModule({
