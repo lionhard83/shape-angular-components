@@ -1,14 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>  
-</div>
+<app-navbar></app-navbar>
 <a routerLink='/'>Home</a> <br>
-<a routerLink='/triangle'>Triangle</a> <br>
-<a routerLink='/square'>Square</a> <br>
-<a routerLink='/rectangle'>Rectangle</a> <br>
-<button (click)='goToRectangle()'>Rectangle by Function</button> <br>
-
+<a routerLink='/matches'>matches</a> <br>
+<a routerLink='/teams'>teams</a> <br>
+<a routerLink='/teams/results'>teams/results</a> <br>
+<a routerLink='/teams/group_results'>teams/group_results</a> <br>
 
 <router-outlet></router-outlet>
+<app-footer></app-footer>

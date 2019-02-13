@@ -9,6 +9,11 @@ import { SquareComponent } from './square/square.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { HttpClientModule } from  '@angular/common/http';
 import { MatchComponent } from './match/match.component';
+import { TeamsComponent } from './teams/teams.component';
+import { TeamsResultsComponent } from './teams-results/teams-results.component';
+import { GroupResultsComponent } from './group-results/group-results.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { MatchComponent } from './match/match.component';
     TriangleComponent,
     SquareComponent,
     RectangleComponent,
-    MatchComponent
+    MatchComponent,
+    TeamsComponent,
+    TeamsResultsComponent,
+    GroupResultsComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
